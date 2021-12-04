@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: 
+    username: 
+    password: 
+  jpa:
+    database: mysql
+    show-sql: true

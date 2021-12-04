@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://42.193.137.196:3306
+    username: rainbow
+    password: Rainbow6
+  jpa:
+    database: mysql
+    show-sql: true
