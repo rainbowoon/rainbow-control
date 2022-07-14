@@ -14,6 +14,6 @@ public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
-        log.info("Rainbow running");
+        log.info("Rainbow Control running");
     }
 }
